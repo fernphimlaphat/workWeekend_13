@@ -3,7 +3,7 @@
 
 const char* Currency(int i)
 {
-	const char* currency[] = { "USD","EUR","JPY","GBP","CHF","CNY" };
+	const char* currency[] = { "USD","EUR","JPY","GBP","CNY" };
 
 	return currency[i];
 
@@ -11,13 +11,12 @@ const char* Currency(int i)
 	EUR ยูโร
 	JPY เยน
 	GBP ปอนด์
-	CHF ฟลังค์
 	CNY หยวน*/
 }
 
 const double CurrencyChange(int currency,int money)
 {
-	double change[] = { 30.27 , 35.93 , 0.29 , 40.22 , 33.27 , 4.62 };
+	double change[] = { 30.27 , 35.93 , 0.29 , 40.22  , 4.62 };
 	return money / change[currency];
 }
 
