@@ -76,6 +76,7 @@ void DoCurency_2(int select, double changeMoneytyp, int money)
 		printf("\n");
 
 	} while (select <= 0);
+
 	con(select, changeMoneytyp, money);
 }
 
